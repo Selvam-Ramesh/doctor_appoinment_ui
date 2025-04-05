@@ -122,7 +122,7 @@ class _OppointmentState extends State<Oppointment> {
                               child: SfDateRangePicker(
                                 selectionMode:
                                     DateRangePickerSelectionMode.single,
-                                backgroundColor: Colors.grey.withOpacity(.1),
+                                backgroundColor: Colors.grey.withAlpha(26),
                                 allowViewNavigation: true,
                                 enablePastDates: false,
                                 headerHeight: 100,
@@ -330,7 +330,7 @@ class _OppointmentState extends State<Oppointment> {
                           child: InkWell(
                             onTap: () {
                               showModalBottomSheet(
-                                barrierColor: Colors.black.withOpacity(.8),
+                                barrierColor: Colors.black.withAlpha(204),
                                 backgroundColor: Colors.transparent,
                                 isDismissible: true,
                                 context: context,
@@ -421,7 +421,7 @@ class _OppointmentState extends State<Oppointment> {
                                                       CircleAvatar(
                                                         backgroundColor: Colors
                                                             .black
-                                                            .withOpacity(.1),
+                                                            .withAlpha(26),
                                                         radius: 60,
                                                         child: const Center(
                                                           child: Icon(
@@ -507,12 +507,12 @@ class _OppointmentState extends State<Oppointment> {
                                   ),
                                   Icon(
                                     Icons.arrow_forward_ios_outlined,
-                                    color: Colors.white.withOpacity(.5),
+                                    color: Colors.white.withAlpha(179),
                                     size: 18,
                                   ),
                                   Icon(
                                     Icons.arrow_forward_ios_outlined,
-                                    color: Colors.white.withOpacity(.2),
+                                    color: Colors.white.withAlpha(51),
                                     size: 18,
                                   ),
                                 ],

@@ -89,7 +89,7 @@ class _ProfileState extends State<Profile> {
                         TextWidget(
                           spacilality[0],
                           15,
-                          Colors.black.withOpacity(.6),
+                          Colors.black.withAlpha(153),
                           FontWeight.bold,
                           letterSpace: 0,
                         ),
@@ -126,7 +126,7 @@ class _ProfileState extends State<Profile> {
                                     TextWidget(
                                       "Rating",
                                       17,
-                                      Colors.black.withOpacity(.5),
+                                      Colors.black.withAlpha(179),
                                       FontWeight.bold,
                                       letterSpace: 0,
                                     ),
@@ -179,7 +179,7 @@ class _ProfileState extends State<Profile> {
                                     TextWidget(
                                       "Patient",
                                       17,
-                                      Colors.black.withOpacity(.5),
+                                      Colors.black.withAlpha(179),
                                       FontWeight.bold,
                                       letterSpace: 0,
                                     ),
@@ -215,7 +215,7 @@ class _ProfileState extends State<Profile> {
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
                           colors: [
-                        Colors.white.withOpacity(.1),
+                        Colors.white.withAlpha(26),
                             Colors.white,
                             Colors.white
                       ])),
@@ -242,7 +242,7 @@ class _ProfileState extends State<Profile> {
                         TextWidget(
                           "Famous doctor, hygienist, folklore researcher and sanitary mentor, Charles Laugier, whose contribution to the development",
                           15,
-                          Colors.black.withOpacity(.5),
+                          Colors.black.withAlpha(179),
                           FontWeight.normal,
                           letterSpace: 0,
                         ),
@@ -388,8 +388,8 @@ class _ProfileState extends State<Profile> {
                           TextWidget("Make an appointment", 18, Colors.white, FontWeight.w500,letterSpace: 1,),
                           const SizedBox(width: 4,),
                           const Icon(Icons.arrow_forward_ios_outlined,color: Colors.white,size: 18,),
-                          Icon(Icons.arrow_forward_ios_outlined,color: Colors.white.withOpacity(.5),size: 18,),
-                          Icon(Icons.arrow_forward_ios_outlined,color: Colors.white.withOpacity(.2),size: 18,),
+                          Icon(Icons.arrow_forward_ios_outlined,color: Colors.white.withAlpha(179),size: 18,),
+                          Icon(Icons.arrow_forward_ios_outlined,color: Colors.white.withAlpha(51),size: 18,),
                         ],
                       ),
                     ),

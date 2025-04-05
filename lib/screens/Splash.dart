@@ -70,7 +70,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
                     const SizedBox(height: 5,),
                     TextWidget("Solution", 35, Colors.black, FontWeight.bold,letterSpace: 5,),
                     const SizedBox(height: 20,),
-                    TextWidget("Early Protection for\nFamily Health", 18, Colors.black.withOpacity(.7), FontWeight.bold),
+                    TextWidget("Early Protection for\nFamily Health", 18, Colors.black.withAlpha(179), FontWeight.bold),
                   ],
                 ),
               ),

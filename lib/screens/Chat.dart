@@ -145,7 +145,7 @@ class _ChatState extends State<Chat> {
                                         child: Center(
                                           child: Icon(
                                             Icons.video_camera_front,
-                                            color: Colors.white.withOpacity(.7),
+                                            color: Colors.white.withAlpha(179),
                                           ),
                                         ),
                                       ),
@@ -161,7 +161,7 @@ class _ChatState extends State<Chat> {
                                         child: Center(
                                           child: Icon(
                                             Icons.wifi_calling_outlined,
-                                            color: Colors.white.withOpacity(.7),
+                                            color: Colors.white.withAlpha(179),
                                           ),
                                         ),
                                       )
@@ -181,7 +181,7 @@ class _ChatState extends State<Chat> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   const SizedBox(height: 30,),
-                                  msgBox(size, "Use the Stick on other hand Fandit", "08:20",Colors.blue.withOpacity(.1),Colors.grey),
+                                  msgBox(size, "Use the Stick on other hand Fandit", "08:20",Colors.blue.withAlpha(25),Colors.grey),
                                   const SizedBox(height: 30,),
                                   Align(
                                     alignment: Alignment.topRight,
@@ -196,21 +196,21 @@ class _ChatState extends State<Chat> {
                                           margin: const EdgeInsets.symmetric(horizontal: 20),
                                           height: 1,
                                           width: size.width/3,
-                                          color: Colors.black.withOpacity(.5),
+                                          color: Colors.black.withAlpha(128),
                                         ),
                                       ),
-                                      TextWidget("today", 14, Colors.black.withOpacity(.5),FontWeight.bold),
+                                      TextWidget("today", 14, Colors.black.withAlpha(128),FontWeight.bold),
                                       Expanded(
                                         child: Container(
                                           height: 1,
                                           margin: const EdgeInsets.symmetric(horizontal: 20),
-                                          color: Colors.black.withOpacity(.5),
+                                          color: Colors.black.withAlpha(128),
                                         ),
                                       )
                                     ],
                                   ),
                                   const SizedBox(height: 30,),
-                                  msgBox(size, "Morning!\n\nHow the result did it\nwork well", "08:20",Colors.blue.withOpacity(.1),Colors.grey),
+                                  msgBox(size, "Morning!\n\nHow the result did it\nwork well", "08:20",Colors.blue.withAlpha(179),Colors.grey),
                                   const SizedBox(height: 30,),
                                   Align(
                                     alignment: Alignment.topRight,

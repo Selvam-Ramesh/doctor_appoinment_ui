@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          TextWidget("Hello", 17, Colors.black.withOpacity(.7),
+                          TextWidget("Hello", 17, Colors.black.withAlpha(179),
                               FontWeight.bold),
                           TextWidget("Giovanny", 25, Colors.black, FontWeight.bold),
                         ],
@@ -96,7 +96,7 @@ class _HomeState extends State<Home> {
                           prefixIcon: Icon(
                             Icons.search_sharp,
                             size: 30,
-                            color: Colors.black.withOpacity(.5),
+                            color: Colors.black.withAlpha(128),
                           ),
                           hintText: "   Search"),
                     ),
@@ -197,7 +197,7 @@ class _HomeState extends State<Home> {
                                 child: Container(
                                   height: 1,
                                   width: 300,
-                                  color: Colors.white.withOpacity(.5),
+                                  color: Colors.white.withAlpha(128),
                                 )),
                             Positioned(
                                 top: 115,
@@ -267,7 +267,7 @@ class _HomeState extends State<Home> {
                 child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      TextWidget("Our Doctors", 25, Colors.black.withOpacity(.8), FontWeight.bold,letterSpace: 0,),
+                      TextWidget("Our Doctors", 25, Colors.black.withAlpha(204), FontWeight.bold,letterSpace: 0,),
                       InkWell(
                         onTap: () async
                           {
@@ -287,7 +287,7 @@ class _HomeState extends State<Home> {
                               animator();
                             });
                           },
-                          child: TextWidget("See all", 15, Colors.blue.shade600.withOpacity(.8), FontWeight.bold,letterSpace: 0,)),
+                          child: TextWidget("See all", 15, Colors.blue.shade600.withAlpha(204), FontWeight.bold,letterSpace: 0,)),
                     ],
                 ),
               ),
