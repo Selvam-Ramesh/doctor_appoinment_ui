@@ -67,7 +67,7 @@ class _HomeState extends State<Home> {
                         children: [
                           TextWidget("Hello", 17, Colors.black.withAlpha(179),
                               FontWeight.bold),
-                          TextWidget("Giovanny", 25, Colors.black, FontWeight.bold),
+                          TextWidget("John Wick", 25, Colors.black, FontWeight.bold),
                         ],
                       ),
                       const Icon(Icons.phonelink_ring)
@@ -179,7 +179,7 @@ class _HomeState extends State<Home> {
                                               letterSpace: 1,
                                             ),
                                             TextWidget(
-                                              "Dr.Navida",
+                                              "Dr.Angel",
                                               15,
                                               Colors.white,
                                               FontWeight.bold,

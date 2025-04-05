@@ -10,7 +10,7 @@ var images=const [
 ];
 var names=
 [
-  "Dr. John Carter",
+  "Dr. Ania",
   "Dr. Michaela Quinn",
   "Dr. Frasier Crane",
   "Dr. Leonard H.",
